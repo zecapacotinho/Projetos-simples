@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisando IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="area">
+            <section class="area_principal">
+                <section class="secoes">
+                    <header>
+                        <h2>Calculando IMC</h2>
+                    </header>
+                    <section class="itens">
+                        <div class="info">
+                            <label for="nome">
+                                <p>Nome</p>
+                            </label>
+                            <input type="text" name="nome" id="nome">
+                        </div>
+                        <div class="info">
+                            <label for="peso">
+                                <p>Peso(kg)</p>
+                            </label>
+                            <input type="number" name="peso" id="peso">
+                        </div>
+                        <div class="info">
+                            <label for="altura">
+                                <p>Altura</p>
+                                <input type="number" name="altura" id="altura">
+                            </label>
+                        </div>
+                        <input type="button" value="Verificar" onclick="ClickButton()" id="butao">
+                        <div id="resultado">
+                            <p id="res"></p>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
