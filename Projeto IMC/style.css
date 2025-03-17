@@ -71,6 +71,7 @@ header{
 }
 
 #resultado{
+    text-align: justify;
     border: 1px solid #000;
     padding: 10px;
     margin-top: 20px;
