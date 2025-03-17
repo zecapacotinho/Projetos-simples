@@ -10,6 +10,14 @@ function ClickButton(){
     else{
         let imc = peso/(altura * altura)
 
-        res.innerHTML = `${nome} tem ${altura} e pesa ${peso}. Então o seu IMC vai ser ${imc}.`
+        if(imc <= 18.5){
+            res.innerHTML = `O imc de ${nome} é de ${imc.toFixed(2)}. Então você está abaixo do peso.`
+        }
+        else if(imc >= 18.5 && imc <= 25){
+            res.innerHTML = `O imc de ${nome} é de ${imc.toFixed(2)}. Então você está no peso normal.`
+        }
+        else{
+            res.innerHTML = `O imc de ${nome} é de ${imc.toFixed(2)}. Então você está acima do peso.`
+        }
     }
 }
