@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(0, 204, 204);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.area{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25rem;
+}
+
+header{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont{
+    margin-bottom: 20px;
+}
+
+.cont #num{
+    margin-top: 10px;
+    width: 17rem;
+    height: 2.2rem;
+    border-radius: 10px;
+    border: 1px solid;
+    outline: none;
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+    appearance: none;
+}
+
+.cont #button{
+    width: 17rem;
+    height: 2.3rem;
+    border-radius: 10px;
+    border: 2px solid #00f;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: #00f;
+    color: #fff;
+    margin: 0;
+}
+
+.cont #button:hover{
+    background-color: #fff;
+    color: #000;
+    transition-duration: .3s;
+}
+
+select{
+    width: 17rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 5px;
+    outline: none;
+}
+
+.snd{
+    margin-top: 20px;
+}
+
+.snd{
+    margin-top: 20px;
+}
+
+.snd #but{
+    width: 17rem;
+    height: 2.3rem;
+    border-radius: 10px;
+    border: 2px solid #00f;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: #00f;
+    color: #fff;
+    margin: 0;
+}
+
+.snd #but:hover{
+    background-color: #fff;
+    color: #000;
+    transition-duration: .3s;
+}
+
