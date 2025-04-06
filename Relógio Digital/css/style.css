@@ -13,7 +13,7 @@ body{
 
 body.dark{
     background-color: #232c35;
-    color: #fff;
+    color: white;
 }
 
 
@@ -117,6 +117,5 @@ main{
 
 .horario .hora{
     font-size: 13vh;
-    color: rgb(39, 39, 39);
     transition: color .3s ease;
 }
